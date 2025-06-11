@@ -42,8 +42,7 @@ height: 100vh;
 .container{
     background-color: rgba(21,24, 53, 0.79);
     color: white;
-    height: 50rem;
-    width: 65rem;
+    height: 45rem;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -54,9 +53,7 @@ height: 100vh;
     
 }
 
-.caixa{
-    padding-left: 0rem;
-}
+
 p{
     justify-content: center;
     text-align: center;
@@ -85,16 +82,17 @@ button:hover{
     color: #151835;
 }
 input{
-    display: block;
+    display: flex;    
     margin-bottom: 3rem;
-    height: 4rem;
-    width: 45rem;
-    justify-content: center;
-    align-items: center;
+    height: 2rem;
+    padding: 38rem;    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: #151835;
     border: 1px solid #9AB2FF;
     border-radius: 6px;
-        color: white;
+    color: white;
+    text-align: start;
 
 }
 ::placeholder{
@@ -122,3 +120,4 @@ input{
     left: 156.5px;
     top: 36px;
 }
+
